@@ -1,0 +1,14 @@
+ts,rule,severity,details
+2026-01-15T15:58:10,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
+2026-01-15T15:58:11,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
+2026-01-15T15:58:13,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
+2026-01-15T15:58:15,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
+2026-01-15T15:58:16,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
+2026-01-15T15:58:19,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
+2026-01-15T16:00:09,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
+2026-01-15T16:00:11,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
+2026-01-15T16:00:13,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
+2026-01-15T16:00:16,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
+2026-01-15T16:00:19,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
+2026-01-15T16:00:21,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
+2026-01-15T16:00:24,MASS_FILE_ACTIVITY,HIGH,25 file events within 20s (threshold=25).
