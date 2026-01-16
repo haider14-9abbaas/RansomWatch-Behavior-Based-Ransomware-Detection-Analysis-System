@@ -1,7 +1,7 @@
-# 🛡️ RansomWatch — Ransomware Behavior Detection System (Defensive Project)
+# 🛡️ RansomGuard - Ransomware Detection Analysis System
 
 > ⚠️ **Disclaimer:**  
-> This project is created strictly for **educational and defensive cybersecurity research**.  
+> We developed **RansomGuard**, a defensive monitoring tool that: 
 > It does NOT create malware or encrypt files. It only **detects ransomware-like behavior patterns** in a monitored folder.
 
 ---
@@ -94,38 +94,66 @@ These rules simulate how modern endpoint security tools detect ransomware.
 
 ---
 
-## 📁 Project Structure
+## 🧪 Testing Methodology
+Testing includes:
 
-RansomWatch/
-│── monitor.py
-│── app_streamlit.py
-│── requirements.txt
-│── README.md
-│
-├── src/
-│ ├── detector.py
-│ ├── event_bus.py
-│ ├── config.py
-│ └── utils/
-│ ├── entropy.py
-│ ├── logger.py
-│ └── paths.py
-│
-├── data/
-│ └── watch_folder/ # Folder under monitoring
-│
-├── logs/
-│ ├── events.csv
-│ ├── alerts.csv
-│ └── state.json
-│
-└── reports/
-└── ransomware_detection_report.md
+- Rapid file creation
+- Extension renaming
+- File content randomization
+- Monitoring alert triggers
 
-yaml
-Copy code
+**Alerts are validated using:**
 
----
+- Dashboard view
+- logs/alerts.csv
+- logs/events.csv
+
+## 📝 Report Documentation
+
+A structured security report is provided at:
+reports/ransomware_detection_report.md
+It includes:
+
+- Problem statement
+- Detection rules
+- Test methodology
+
+## 🎓 Learning Outcomes
+Through this project, students learn:
+
+- How ransomware behaves at file-system level
+- Behavioral detection logic
+- Incident detection workflows
+- Security monitoring concepts
+- SOC alert analysis approach
+
+This project is suitable for:
+
+- Cybersecurity students
+- SOC analyst training
+- Blue team practice labs
+
+## 🚧 Limitations
+
+- User-space monitoring only (no kernel telemetry)
+- No process-level correlation
+- Threshold tuning required per system
+
+This is a learning-oriented prototype, not a production EDR system.
+
+## 🔮 Future Enhancements
+
+- Process-based detection
+- Automatic file quarantine
+- Email / Telegram alerts
+- Integration with SIEM
+- Machine learning anomaly detection
+
+## 👨‍💻 Developed By
+
+| GitHub | LinkedIn | Developer Name |
+|:------:|:--------:|----------------|
+| [<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" width="20"/>](https://github.com/haider14-9abbaas) | [<img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="20"/>](https://www.linkedin.com/in/syed-haider-abbas-zaidi-132525215/) | **Syed Haider Abbas Zaidi** |
 
 ## 🚀 How to Run the Project
 
@@ -163,91 +191,3 @@ File edits
 File renames
 
 New file creation
-
-⚠️ No encryption or malicious activity is performed.
-
-🧪 Testing Methodology
-Testing includes:
-
-Rapid file creation
-
-Extension renaming
-
-File content randomization
-
-Monitoring alert triggers
-
-Alerts are validated using:
-
-Dashboard view
-
-logs/alerts.csv
-
-logs/events.csv
-
-📝 Report Documentation
-A structured security report is provided at:
-
-bash
-Copy code
-reports/ransomware_detection_report.md
-It includes:
-
-Problem statement
-
-Detection rules
-
-Test methodology
-
-Results
-
-Limitations
-
-Future improvements
-
-🎓 Learning Outcomes
-Through this project, students learn:
-
-How ransomware behaves at file-system level
-
-Behavioral detection logic
-
-Incident detection workflows
-
-Security monitoring concepts
-
-SOC alert analysis approach
-
-This project is suitable for:
-
-Cybersecurity students
-
-SOC analyst training
-
-Blue team practice labs
-
-🚧 Limitations
-User-space monitoring only (no kernel telemetry)
-
-No process-level correlation
-
-Threshold tuning required per system
-
-This is a learning-oriented prototype, not a production EDR system.
-
-🔮 Future Enhancements
-Process-based detection
-
-Automatic file quarantine
-
-Email / Telegram alerts
-
-Integration with SIEM
-
-Machine learning anomaly detection
-
-👨‍💻 Developers
-Name	LinkedIn	GitHub
-Muhammad Hamza Kamran	🔗 https://www.linkedin.com/in/hamza-kamran-271872297/	🐙 https://github.com/Hamza-hani
-
-
